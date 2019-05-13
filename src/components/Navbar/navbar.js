@@ -1,16 +1,26 @@
 import React from "react";
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Container, Col } from 'react-bootstrap';
+import './navbar.css';
 
-function Nav (props) {
-        return (
-            <div className="header">
-                <Navbar bg="light" expand="lg">
-                <div>
-                    <h1>AYAYA</h1>
+function topNav(props) {
+    return (
+        <Container>
+            <Navbar bg="dark" variant="dark">
+                <div className='nav-header'>
+                    <h1><strong>Clicky Game</strong></h1>
                 </div>
-                </Navbar>
-            </div>
-        )
+
+                <div>
+                    <Col>
+                        <ul className='nav-score'>
+                            <li>Score: </li>
+                            <li>Top Score: </li>
+                        </ul>
+                    </Col>
+                </div>
+            </Navbar>
+        </Container>
+    )
 }
 
-export default Nav;
+export default topNav;
