@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { } from "./index";
 import skins from './images.json';
 import { Container, Row, Col } from 'react-bootstrap'
-import SkinButton from './components/skin-button/skindex';
+import SkinButton from './components/Board/board';
 import Wrapper from "./components/Wrapper";
 import Nav from './components/Navbar/navbar';
 

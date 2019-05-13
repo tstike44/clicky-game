@@ -1,10 +1,6 @@
-import React, { Component } from "./node_modules/react";
+import React, { Component } from "react";
 
-
-
-
-
-export default class SkinButton extends Component {
+export default class character extends Component {
 
     handleClick = () => {
         this.props.onCharacterClick(this.props.index);
