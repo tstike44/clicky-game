@@ -5,12 +5,14 @@ import Board from './components/Board/board';
 import './App.css';
 
 
+
 class App extends Component {
 
     render() {
         return (
             <div>
                 <Container>
+                  
                     <Board />
                 </Container>
             </div>
