@@ -1,0 +1,33 @@
+
+  .character-box{
+    height: 20vh;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .character:hover {
+    transition: transform .2s ease-in-out;
+    transform: scale(1.03,1.03);
+  }
+  
+  
+  @media screen and (max-width: 1340px) {
+    img.profile-pic {
+      height: 140px;
+    }
+  }
+  
+  @media screen and (max-width: 860px) {
+    img.profile-pic {
+      height: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+   
+    .Board h4 {
+      font-size: 14px;
+    }
+  }
