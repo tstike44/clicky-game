@@ -1,7 +1,6 @@
-.img-div {
+.profile-pic {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    margin: 8px 25px;
-
+    margin: 1px;
 }
