@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './character.css';
 
 export default class character extends Component {
 

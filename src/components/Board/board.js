@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import CharacterBox from '../CharacterBox/characterBox';
 import ScoreDisplay from '../scoreDisplay';
-import '../Board/skins.css';
+import './board.css';
 
 const shuffleArray = arr => (
-    arr
-        .map(a => [Math.random(), a])
+    arr.map(a => [Math.random(), a])
         .sort((a, b) => a[0] - b[0])
         .map(a => a[1])
 );
