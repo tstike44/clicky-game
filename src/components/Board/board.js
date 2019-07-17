@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CharacterBox from '../CharacterBox/characterBox';
-import ScoreDisplay from '../scoreDisplay';
 import './board.css';
 
 const shuffleArray = arr => (
@@ -8,6 +7,7 @@ const shuffleArray = arr => (
         .sort((a, b) => a[0] - b[0])
         .map(a => a[1])
 );
+const ScoreDisplay = (props) => (<div className="score-keeper">Score: {props.score}</div>);
 
 const initialChars = [
     {
